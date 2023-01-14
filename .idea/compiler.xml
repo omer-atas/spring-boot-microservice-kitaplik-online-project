@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="libraryService" />
+        <module name="eureka-server" />
+        <module name="bookService" />
+        <module name="gateway" />
+        <module name="zipkinserver" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bookService" target="17" />
+      <module name="eureka-server" target="17" />
+      <module name="gateway" target="17" />
+      <module name="libraryService" target="17" />
+      <module name="zipkinserver" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bookService" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="gateway" options="-parameters" />
+      <module name="libraryService" options="-parameters" />
+      <module name="zipkinserver" options="-parameters" />
+    </option>
+  </component>
+</project>

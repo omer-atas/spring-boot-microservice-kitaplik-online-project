@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springMicroservices/bookService/bookService.iml" filepath="$PROJECT_DIR$/springMicroservices/bookService/bookService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMicroservices/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/springMicroservices/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMicroservices/gateway/gateway/gateway/gateway.iml" filepath="$PROJECT_DIR$/springMicroservices/gateway/gateway/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMicroservices/libraryService/libraryService.iml" filepath="$PROJECT_DIR$/springMicroservices/libraryService/libraryService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springMicroservices.iml" filepath="$PROJECT_DIR$/.idea/springMicroservices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springMicroservices/zipkinserver/zipkinserver/zipkinserver.iml" filepath="$PROJECT_DIR$/springMicroservices/zipkinserver/zipkinserver/zipkinserver.iml" />
+    </modules>
+  </component>
+</project>

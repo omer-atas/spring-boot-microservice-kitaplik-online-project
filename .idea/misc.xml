@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/springMicroservices/bookService/pom.xml" />
+        <option value="$PROJECT_DIR$/springMicroservices/libraryService/pom.xml" />
+        <option value="$PROJECT_DIR$/springMicroservices/eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/springMicroservices/gateway/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springMicroservices/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springMicroservices/gateway/gateway/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/springMicroservices/zipkinserver/zipkinserver/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="openjdk-17" project-jdk-type="JavaSDK" />
+</project>
