@@ -6,6 +6,7 @@ import com.kitaplik.libraryservice.service.LibraryService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.env.Environment;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -21,6 +22,9 @@ public class LibraryController {
   private LibraryService libraryService;
 
   private Environment environment;
+
+  @Value("${library.service.count}")
+  private Integer count;
 
   @Autowired
   public LibraryController(LibraryService libraryService,Environment environment) {
@@ -49,5 +53,10 @@ public class LibraryController {
   @GetMapping
   public ResponseEntity<List<String>> getAllLibraries() {
     return ResponseEntity.ok(libraryService.getAllLibraries());
+  }
+
+  @GetMapping("/count")
+  public ResponseEntity<String> getCount(){
+    return ResponseEntity.ok("Library service count : " + this.count);
   }
 }

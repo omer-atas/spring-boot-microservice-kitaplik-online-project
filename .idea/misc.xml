@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/springMicroservices/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/springMicroservices/gateway/gateway/gateway/pom.xml" />
         <option value="$PROJECT_DIR$/springMicroservices/zipkinserver/zipkinserver/pom.xml" />
+        <option value="$PROJECT_DIR$/springMicroservices/config-server/config-server/pom.xml" />
       </list>
     </option>
   </component>

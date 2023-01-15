@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/springMicroservices/bookService/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMicroservices/bookService/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMicroservices/config-server/config-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springMicroservices/config-server/config-server/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMicroservices/eureka-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMicroservices/gateway/gateway/gateway/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springMicroservices/gateway/gateway/gateway/src/main/resources" charset="UTF-8" />
