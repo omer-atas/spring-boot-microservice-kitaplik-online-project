@@ -23,7 +23,7 @@ public class LibraryController {
 
   private Environment environment;
 
-  @Value("${library.service.count}")
+  @Value("${library-service.book.count}")
   private Integer count;
 
   @Autowired
